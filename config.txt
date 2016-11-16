@@ -1,0 +1,3 @@
+speechScan=pocketsphinx_continuous -hmm /usr/local/lib/chess_resource/mn.cd_cont_2000 -dict /usr/local/lib/chess_resource/mn.dic -jsgf /usr/local/lib/chess_resource/dialog1.gram -inmic yes -logfn /dev/null
+speechDialog=pocketsphinx_continuous -hmm /usr/local/lib/chess_resource/mn.cd_cont_2000 -dict /usr/local/lib/chess_resource/mn.dic -jsgf /usr/local/lib/chess_resource/dialogW.gram -inmic yes -logfn /dev/null
+time=1800
