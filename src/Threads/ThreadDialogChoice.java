@@ -45,7 +45,7 @@ public class ThreadDialogChoice implements Runnable {
                     BufferedReader br = new BufferedReader(
                             new InputStreamReader(p.getInputStream()));
 
-                    while (running) {
+                    while (running && !(s = br.readLine()).equals("-1")) {
                         System.out.println(s);
                         Thread.sleep(100);
                         s = s.toLowerCase();
