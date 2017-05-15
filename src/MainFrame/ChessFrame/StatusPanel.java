@@ -16,9 +16,15 @@ public class StatusPanel extends JPanel {
      * Creates a new instance of StatusPanel
      */
     public StatusPanel() {
-        setSize(600, 25);
+        setSize(814, 25);
         setLocation(3, 635);
         setLayout(null);
+
+        Author.setSize(200,20);
+        Author.setLocation(610,5);
+        Author.setFont(new Font("Monospace Regular", Font.PLAIN, 11));
+        Author.setForeground(Color.DARK_GRAY);
+        add(Author);
 
         statusLabel.setSize(590, 20);
         statusLabel.setLocation(5, 5);
@@ -55,4 +61,5 @@ public class StatusPanel extends JPanel {
     private String status = "";
     private JLabel statusLabel = new JLabel();
     private LineBorder LabelBorder = new LineBorder(Color.BLACK.brighter(), 2);
+    private final JLabel Author = new JLabel("МУИС ХШУИС МКУТ О.Билгүүн");
 }

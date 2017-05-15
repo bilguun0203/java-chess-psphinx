@@ -22,9 +22,8 @@ public class About_Game_Programmers extends JMenuItem {
         setText("Хөгжүүлэгчид");
         addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                String aboutDevelopers = "Хөгжүүлэгчид\n" +
-//                        "Дуу хоолой таних хэсгийг МУИС ХШУИС-ийн багш нар\n" +
-//                        "Шатрыг МУИС ХШУИС-ийн Компьютерийн ухааны 2-р түвшний оюутан Билгүүн" +
+                String aboutDevelopers = "Хөгжүүлэгч:\n" +
+                        "МУИС ХШУИС МКУТ Компьютерийн ухааны\n2-р түвшний оюутан О.Билгүүн\n" +
                         "";
                 JOptionPane.showMessageDialog(null, aboutDevelopers);
             }

@@ -7,10 +7,6 @@ import java.awt.Font;
 import java.awt.Graphics;
 import javax.swing.*;
 
-/**
- * @author sami
- */
-
 public class ToolPanel extends JPanel {
     /**
      * Creates a new instance of ToolPanel

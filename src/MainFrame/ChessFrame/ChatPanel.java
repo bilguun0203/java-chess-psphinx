@@ -28,9 +28,6 @@ import java.net.ServerSocket;
 
 import javax.swing.border.TitledBorder;
 
-/**
- * @author sami
- */
 public class ChatPanel extends JPanel {
 
 
@@ -38,7 +35,7 @@ public class ChatPanel extends JPanel {
      * Creates a new instance of ChatPanel
      */
     public ChatPanel() {
-        setSize(200, 300);
+        setSize(200, 270);
         setLocation(620, 350);
 
 
@@ -218,7 +215,6 @@ public class ChatPanel extends JPanel {
     private Socket send_socket;
     private client_chat client_thread = new client_chat();
     private boolean I_am_What;
-
 
 }
 
